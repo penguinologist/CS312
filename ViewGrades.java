@@ -16,9 +16,16 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-
+/**
+ * View grades class
+ */
 public class ViewGrades extends ActionBarActivity {
 
+    /**
+     * the oncreate method. this gets called upon creation of the new activity
+     *
+     * @param savedInstanceState the instance that gets passed along, combined with the intent and all extras
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -88,6 +95,12 @@ public class ViewGrades extends ActionBarActivity {
     }
 
 
+    /**
+     * useless for now...
+     *
+     * @param menu
+     * @return
+     */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -95,6 +108,12 @@ public class ViewGrades extends ActionBarActivity {
         return true;
     }
 
+    /**
+     * again, useless for now...
+     *
+     * @param item
+     * @return
+     */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
