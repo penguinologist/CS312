@@ -156,6 +156,15 @@ public class TakeQuiz extends ActionBarActivity {
                     correct = text.getText().toString().equalsIgnoreCase(answer);
                 } else if (type.equalsIgnoreCase("C")) {
                     //it's a code question... we're just going to accept any response for now...
+
+                    //saving the response to Parse for teachers to grade later...
+                    ParseObject code = new ParseObject("Code");
+                    code.put("Username", ParseUser.getCurrentUser().get("username"));
+                    code.put("Quizname", name);
+                    code.put("submission", text.getText().toString().trim());
+                    code.saveInBackground();
+
+
                     correct = true;
                 } else if (type.equalsIgnoreCase("M")) {
                     //multiple choice

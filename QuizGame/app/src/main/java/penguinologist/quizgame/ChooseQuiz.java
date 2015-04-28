@@ -21,7 +21,10 @@ import com.parse.ParseQuery;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/**
+ * @author Jeroen
+ * This class allows the user to pick a quiz. It pulls the latest list of quizzes and then adds each quiz as an item to the listview.
+ */
 public class ChooseQuiz extends ActionBarActivity {
     ArrayList<String> quizzes;
     ListView lv;
