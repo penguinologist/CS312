@@ -7,7 +7,7 @@ Issues we ran into:
 - reading and writing to and from files -> solved by just using a Parse database
 - horrible spaghetti code without any documentation ->solved by completely rewriting the code from scratch, keeping only the essence intact
 - not having an android to develop on and having to use a virtual machine for 3 weeks -> fixed by obtaining an android device.
-- rotation issues -> about to fix that now....
+- rotation issues -> just added some more enhancements to the AndroidManifest.xml settings. 
 
 
 Team members:
