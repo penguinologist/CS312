@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="action_settings">Back to main menu</string>
+    <string name="title_activity_main_page">Main Menu</string>
+    <string name="title_activity_takingquiz">Take a quiz</string>
+    <string name="title_activity_create_question">Create a question</string>
+    <string name="title_activity_viewgrades">View your grades</string>
+    <string name="title_activity_takequiz">Take a quiz</string>
+    <string name="title_activity_hi">Hi</string>
+    <string name="title_activity_quizgame">Quiz game</string>
+    <string name="title_activity_loading">GMU Quiz Game</string>
+</resources>
