@@ -8,3 +8,12 @@ Issues we ran into:
 - horrible spaghetti code without any documentation ->solved by completely rewriting the code from scratch, keeping only the essence intact
 - not having an android to develop on and having to use a virtual machine for 3 weeks -> fixed by obtaining an android device.
 - rotation issues -> about to fix that now....
+
+
+Team members:
+- Jeroen Goossens
+- Katie Cokus
+- Eric Rossi
+- Nancy Chan
+- Michael Kelly
+- Thach Nguyen
